@@ -19,6 +19,7 @@ import net.mcreator.overkill.item.ThalimitePickaxeItem;
 import net.mcreator.overkill.item.ThalimiteIngotItem;
 import net.mcreator.overkill.item.ThalimiteHoeItem;
 import net.mcreator.overkill.item.ThalimiteAxeItem;
+import net.mcreator.overkill.item.ThalimiteArmorItem;
 import net.mcreator.overkill.item.ShickaxeItem;
 import net.mcreator.overkill.item.NitrogyenItem;
 import net.mcreator.overkill.item.FanaleItem;
@@ -50,6 +51,10 @@ public class OverkillModItems {
 	public static final Item TRIPS_FENCE_GATE = register(OverkillModBlocks.TRIPS_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
 	public static final Item TRIPS_PRESSURE_PLATE = register(OverkillModBlocks.TRIPS_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
 	public static final Item TRIPS_BUTTON = register(OverkillModBlocks.TRIPS_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item THALIMITE_ARMOR_HELMET = register(new ThalimiteArmorItem.Helmet());
+	public static final Item THALIMITE_ARMOR_CHESTPLATE = register(new ThalimiteArmorItem.Chestplate());
+	public static final Item THALIMITE_ARMOR_LEGGINGS = register(new ThalimiteArmorItem.Leggings());
+	public static final Item THALIMITE_ARMOR_BOOTS = register(new ThalimiteArmorItem.Boots());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "overkill:thalimite_ingot"
+    },
+    "1": {
+      "item": "overkill:thalimite_ingot"
+    },
+    "2": {
+      "item": "overkill:thalimite_ingot"
+    },
+    "3": {
+      "item": "overkill:thalimite_ingot"
+    },
+    "5": {
+      "item": "overkill:thalimite_ingot"
+    },
+    "6": {
+      "item": "overkill:thalimite_ingot"
+    },
+    "8": {
+      "item": "overkill:thalimite_ingot"
+    }
+  },
+  "result": {
+    "item": "overkill:thalimite_armor_leggings",
+    "count": 1
+  }
+}

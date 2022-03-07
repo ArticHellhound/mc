@@ -365,6 +365,52 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "trip"
+    },
+    {
+      "name": "ThalimiteArmor",
+      "type": "armor",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ThalimiteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_armor_helmet_recipe"
+    },
+    {
+      "name": "ThalimiteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_armor_body_recipe"
+    },
+    {
+      "name": "ThalimiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_armor_leggings_recipe"
+    },
+    {
+      "name": "ThalimiteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -374,14 +420,17 @@
       "block.overkill.trips_planks": "Trips Planks",
       "block.overkill.trips_pressure_plate": "Trips Pressure Plate",
       "item.overkill.thalimite_ingot": "Thalimite",
+      "item.overkill.thalimite_armor_leggings": "Thalimite Leggings",
       "block.overkill.nitrogyen": "Nitrogyen",
       "item.overkill.thalimite_pickaxe": "Thalimite Pickaxe",
       "block.overkill.trips_wood": "Trips Wood",
+      "item.overkill.thalimite_armor_boots": "Thalimite Boots",
       "block.overkill.trips_leaves": "Trips Leaves",
       "item.overkill.thalimite_hoe": "Thalimite Hoe",
       "block.overkill.trips_fence": "Trips Fence",
       "block.overkill.trips_log": "Trips Log",
       "block.overkill.trips_fence_gate": "Trips Fence Gate",
+      "item.overkill.thalimite_armor_helmet": "Thalimite Helmet",
       "fluid.overkill.nitrogyen": "Nitrogyen",
       "block.overkill.thalimite_ore": "Thalimite Ore",
       "item.overkill.thalimite_axe": "Thalimite Axe",
@@ -391,6 +440,7 @@
       "item.overkill.nitrogyen_bucket": "Nitrogyen Bucket",
       "block.overkill.thalimite_block": "Block of Thalimite",
       "item.overkill.shickaxe": "Shickaxe",
+      "item.overkill.thalimite_armor_chestplate": "Thalimite Chestplate",
       "item.overkill.thalimite_shovel": "Thalimite Shovel",
       "block.overkill.trips_stairs": "Trips Stairs",
       "block.overkill.trips_slab": "Trips Slab",
