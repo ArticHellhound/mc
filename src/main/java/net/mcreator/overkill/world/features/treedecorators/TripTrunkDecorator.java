@@ -37,7 +37,7 @@ public class TripTrunkDecorator extends TrunkVineDecorator {
 			if (random.nextInt(3) > 0) {
 				BlockPos bp = blockpos.below();
 				if (Feature.isAir(levelReader, bp)) {
-					biConsumer.accept(blockpos, Blocks.TRIPWIRE_HOOK.defaultBlockState());
+					biConsumer.accept(blockpos, Blocks.END_PORTAL.defaultBlockState());
 				}
 			}
 		});
