@@ -19,6 +19,7 @@ public class OverkillModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
 		REGISTRY.put(new ResourceLocation("overkill", "coffee"), new SoundEvent(new ResourceLocation("overkill", "coffee")));
+		REGISTRY.put(new ResourceLocation("overkill", "gtahub"), new SoundEvent(new ResourceLocation("overkill", "gtahub")));
 	}
 
 	@SubscribeEvent
