@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "tha",
+    "customModelName": "Normal",
+    "name": "Thaumite Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 16,
+    "efficiency": 21.0,
+    "attackSpeed": 1.0,
+    "enchantability": 112,
+    "damageVsEntity": 16.0,
+    "usageCount": 4595,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThalimiteIngot"
+      },
+      {
+        "value": "CUSTOM:ThaumitePickaxe"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

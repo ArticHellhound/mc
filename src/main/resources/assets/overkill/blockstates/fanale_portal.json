@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "overkill:block/fanale_portal_ew"
+    },
+    "axis=x": {
+      "model": "overkill:block/fanale_portal_ns"
+    }
+  }
+}

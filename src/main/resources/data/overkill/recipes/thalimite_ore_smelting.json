@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1.4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "overkill:thalimite_ore"
+  },
+  "result": {
+    "item": "overkill:thalimite_ingot"
+  }
+}

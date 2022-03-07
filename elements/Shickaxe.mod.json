@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shickaxe",
+    "customModelName": "Normal",
+    "name": "Shickaxe",
+    "specialInfo": [
+      "sword",
+      "axe",
+      "shovel",
+      "pick",
+      "what more do u need?"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 19,
+    "efficiency": 40.0,
+    "attackSpeed": 99.0,
+    "enchantability": 200,
+    "damageVsEntity": 400.0,
+    "usageCount": 99999,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.SKULL#5"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

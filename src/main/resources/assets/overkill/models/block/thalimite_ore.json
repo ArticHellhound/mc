@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "overkill:blocks/thalimite_ore_block",
+    "particle": "overkill:blocks/thalimite_ore_block"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "jungle"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONEBRICK#3"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Nitrogyen"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.END_STONE"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Fanale Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "lighter",
+    "portalTexture": "port",
+    "enablePortal": true
+  }
+}
