@@ -10,48 +10,33 @@ import net.minecraft.world.item.CreativeModeTab;
 
 import net.mcreator.overkill.init.OverkillModItems;
 
-public class ThaumiteShovelItem extends ShovelItem {
-	public ThaumiteShovelItem() {
+public class ThalimiteShovelItem extends ShovelItem {
+	public ThalimiteShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 4595;
+				return 250;
 			}
 
 			public float getSpeed() {
-				return 21f;
+				return 6f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 14f;
+				return 0f;
 			}
 
 			public int getLevel() {
-				return 16;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
-				return 112;
+				return 14;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(), new ItemStack(OverkillModItems.THALIMITE_INGOT));
+				return Ingredient.of(new ItemStack(OverkillModItems.THALIMITE_INGOT));
 			}
 		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("thaumite_shovel");
-	}
-
-	@Override
-	public boolean hasContainerItem(ItemStack stack) {
-		return true;
-	}
-
-	@Override
-	public ItemStack getContainerItem(ItemStack itemstack) {
-		return new ItemStack(this);
-	}
-
-	@Override
-	public boolean isRepairable(ItemStack itemstack) {
-		return false;
+		setRegistryName("thalimite_shovel");
 	}
 }

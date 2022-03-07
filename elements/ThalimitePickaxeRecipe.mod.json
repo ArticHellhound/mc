@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ThaumitePickaxe"
+      "value": "CUSTOM:ThalimitePickaxe"
     },
-    "name": "thaumite_pickaxe_recipe",
+    "name": "thalimite_pickaxe_recipe",
     "namespace": "mod"
   }
 }

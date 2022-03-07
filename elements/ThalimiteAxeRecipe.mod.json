@@ -19,7 +19,7 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:ThalimiteIngot"
       },
       {
         "value": "Items.STICK"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ThaumiteHoe"
+      "value": "CUSTOM:ThalimiteAxe"
     },
-    "name": "thaumite_hoe_recipe",
+    "name": "thalimite_axe_recipe",
     "namespace": "mod"
   }
 }

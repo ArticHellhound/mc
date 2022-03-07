@@ -10,7 +10,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:ThalimiteIngot"
       },
       {
         "value": "CUSTOM:ThalimiteIngot"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ThaumiteShovel"
+      "value": "CUSTOM:ThalimiteHoe"
     },
-    "name": "thaumite_shovel_recipe",
+    "name": "thalimite_hoe_recipe",
     "namespace": "mod"
   }
 }

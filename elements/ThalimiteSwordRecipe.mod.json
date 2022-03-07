@@ -10,7 +10,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:ThalimiteIngot"
+        "value": ""
       },
       {
         "value": "CUSTOM:ThalimiteIngot"
@@ -19,10 +19,10 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ThalimiteIngot"
+        "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:ThalimiteIngot"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ThaumiteAxe"
+      "value": "CUSTOM:ThalimiteSword"
     },
-    "name": "thaumite_axe_recipe",
+    "name": "thalimite_sword_recipe",
     "namespace": "mod"
   }
 }

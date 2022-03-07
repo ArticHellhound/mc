@@ -13,13 +13,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.overkill.item.ThaumiteSwordItem;
-import net.mcreator.overkill.item.ThaumiteShovelItem;
-import net.mcreator.overkill.item.ThaumitePickaxeItem;
-import net.mcreator.overkill.item.ThaumiteHoeItem;
-import net.mcreator.overkill.item.ThaumiteAxeItem;
+import net.mcreator.overkill.item.ThalimiteSwordItem;
+import net.mcreator.overkill.item.ThalimiteShovelItem;
+import net.mcreator.overkill.item.ThalimitePickaxeItem;
 import net.mcreator.overkill.item.ThalimiteIngotItem;
-import net.mcreator.overkill.item.ThalamiteArmorItem;
+import net.mcreator.overkill.item.ThalimiteHoeItem;
+import net.mcreator.overkill.item.ThalimiteAxeItem;
 import net.mcreator.overkill.item.ShickaxeItem;
 import net.mcreator.overkill.item.NitrogyenItem;
 import net.mcreator.overkill.item.FanaleItem;
@@ -33,18 +32,14 @@ public class OverkillModItems {
 	public static final Item THALIMITE_INGOT = register(new ThalimiteIngotItem());
 	public static final Item THALIMITE_ORE = register(OverkillModBlocks.THALIMITE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item THALIMITE_BLOCK = register(OverkillModBlocks.THALIMITE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item THALAMITE_ARMOR_HELMET = register(new ThalamiteArmorItem.Helmet());
-	public static final Item THALAMITE_ARMOR_CHESTPLATE = register(new ThalamiteArmorItem.Chestplate());
-	public static final Item THALAMITE_ARMOR_LEGGINGS = register(new ThalamiteArmorItem.Leggings());
-	public static final Item THALAMITE_ARMOR_BOOTS = register(new ThalamiteArmorItem.Boots());
 	public static final Item NITROGYEN_BUCKET = register(new NitrogyenItem());
 	public static final Item FANALE = register(new FanaleItem());
-	public static final Item THAUMITE_PICKAXE = register(new ThaumitePickaxeItem());
-	public static final Item THAUMITE_AXE = register(new ThaumiteAxeItem());
-	public static final Item THAUMITE_SWORD = register(new ThaumiteSwordItem());
-	public static final Item THAUMITE_SHOVEL = register(new ThaumiteShovelItem());
-	public static final Item THAUMITE_HOE = register(new ThaumiteHoeItem());
 	public static final Item SHICKAXE = register(new ShickaxeItem());
+	public static final Item THALIMITE_PICKAXE = register(new ThalimitePickaxeItem());
+	public static final Item THALIMITE_AXE = register(new ThalimiteAxeItem());
+	public static final Item THALIMITE_SWORD = register(new ThalimiteSwordItem());
+	public static final Item THALIMITE_SHOVEL = register(new ThalimiteShovelItem());
+	public static final Item THALIMITE_HOE = register(new ThalimiteHoeItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

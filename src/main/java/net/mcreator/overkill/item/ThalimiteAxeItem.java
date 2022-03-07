@@ -3,41 +3,40 @@ package net.mcreator.overkill.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.AxeItem;
 
 import net.mcreator.overkill.init.OverkillModItems;
 
-public class ThaumitePickaxeItem extends PickaxeItem {
-	public ThaumitePickaxeItem() {
+public class ThalimiteAxeItem extends AxeItem {
+	public ThalimiteAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 4595;
+				return 250;
 			}
 
 			public float getSpeed() {
-				return 21f;
+				return 6f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 14f;
+				return 7f;
 			}
 
 			public int getLevel() {
-				return 16;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
-				return 112;
+				return 14;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(), new ItemStack(OverkillModItems.THALIMITE_INGOT),
-						new ItemStack(OverkillModItems.THAUMITE_PICKAXE));
+				return Ingredient.of(new ItemStack(OverkillModItems.THALIMITE_INGOT));
 			}
 		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("thaumite_pickaxe");
+		setRegistryName("thalimite_axe");
 	}
 }

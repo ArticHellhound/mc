@@ -2,18 +2,6 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "overkill:thaumite_axe"
-    },
-    {
-      "item": "overkill:thaumite_sword"
-    },
-    {
-      "item": "overkill:thaumite_shovel"
-    },
-    {
-      "item": "overkill:thaumite_pickaxe"
-    },
-    {
       "item": "overkill:thalimite_block"
     }
   ],

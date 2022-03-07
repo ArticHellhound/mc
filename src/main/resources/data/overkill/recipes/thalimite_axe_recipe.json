@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "01",
+    "23",
+    " 5"
   ],
   "key": {
     "0": {
@@ -15,15 +15,15 @@
     "2": {
       "item": "overkill:thalimite_ingot"
     },
-    "4": {
+    "3": {
       "item": "minecraft:stick"
     },
-    "7": {
+    "5": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "overkill:thaumite_pickaxe",
+    "item": "overkill:thalimite_axe",
     "count": 1
   }
 }

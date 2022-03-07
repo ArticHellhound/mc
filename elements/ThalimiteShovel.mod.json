@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "sword",
+    "texture": "shovl",
     "customModelName": "Normal",
-    "name": "Thaumite Sword",
+    "name": "Thalimite Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
-    "toolType": "Sword",
-    "harvestLevel": 16,
-    "efficiency": 21.0,
+    "toolType": "Spade",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
     "attackSpeed": 1.0,
-    "enchantability": 112,
-    "damageVsEntity": 48.0,
-    "usageCount": 4595,
+    "enchantability": 14,
+    "damageVsEntity": 2.0,
+    "usageCount": 250,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": ""
+        "value": "CUSTOM:ThalimiteIngot"
       }
     ],
     "immuneToFire": false,

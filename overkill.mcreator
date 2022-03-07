@@ -49,20 +49,6 @@
       "registry_name": "thalimite_ore_smelting"
     },
     {
-      "name": "ThalamiteArmor",
-      "type": "armor",
-      "sortid": 7,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "thalamite_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
       "name": "ThalamiteArmorHelmetRecipe",
       "type": "recipe",
       "sortid": 8,
@@ -117,86 +103,6 @@
       }
     },
     {
-      "name": "ThaumitePickaxe",
-      "type": "tool",
-      "sortid": 13,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "thaumite_pickaxe"
-    },
-    {
-      "name": "ThaumiteAxe",
-      "type": "tool",
-      "sortid": 14,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "thaumite_axe"
-    },
-    {
-      "name": "ThaumiteSword",
-      "type": "tool",
-      "sortid": 15,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "thaumite_sword"
-    },
-    {
-      "name": "ThaumiteShovel",
-      "type": "tool",
-      "sortid": 16,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "thaumite_shovel"
-    },
-    {
-      "name": "ThaumiteHoe",
-      "type": "tool",
-      "sortid": 17,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "thaumite_hoe"
-    },
-    {
-      "name": "ThaumitePickaxeRecipe",
-      "type": "recipe",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thaumite_pickaxe_recipe"
-    },
-    {
-      "name": "ThaumiteAxeRecipe",
-      "type": "recipe",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thaumite_axe_recipe"
-    },
-    {
-      "name": "ThaumiteSwordRecipe",
-      "type": "recipe",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thaumite_sword_recipe"
-    },
-    {
-      "name": "ThaumiteShovelRecipe",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thaumite_shovel_recipe"
-    },
-    {
-      "name": "ThaumiteHoeRecipe",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thaumite_hoe_recipe"
-    },
-    {
       "name": "Shickaxe",
       "type": "tool",
       "sortid": 23,
@@ -211,28 +117,104 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "shickaxe_recipie"
+    },
+    {
+      "name": "ThalimitePickaxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_pickaxe"
+    },
+    {
+      "name": "ThalimiteAxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_axe"
+    },
+    {
+      "name": "ThalimiteSword",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_sword"
+    },
+    {
+      "name": "ThalimiteShovel",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_shovel"
+    },
+    {
+      "name": "ThalimiteHoe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_hoe"
+    },
+    {
+      "name": "ThalimitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_pickaxe_recipe"
+    },
+    {
+      "name": "ThalimiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_axe_recipe"
+    },
+    {
+      "name": "ThalimiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_sword_recipe"
+    },
+    {
+      "name": "ThalimiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_shovel_recipe"
+    },
+    {
+      "name": "ThalimiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thalimite_hoe_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.overkill.thalamite_armor_helmet": "Thalamite Helmet",
       "item.overkill.thalimite_ingot": "Thalimite",
       "block.overkill.thalimite_ore": "Thalimite Ore",
+      "item.overkill.thalimite_axe": "Thalimite Axe",
       "block.overkill.nitrogyen": "Nitrogyen",
-      "item.overkill.thaumite_sword": "Thaumite Sword",
-      "item.overkill.thaumite_axe": "Thaumite Axe",
+      "item.overkill.thalimite_pickaxe": "Thalimite Pickaxe",
+      "item.overkill.thalimite_sword": "Thalimite Sword",
       "item.overkill.fanale": "Fanale Portal Igniter",
       "item.overkill.nitrogyen_bucket": "Nitrogyen Bucket",
       "block.overkill.thalimite_block": "Block of Thalimite",
       "item.overkill.shickaxe": "Shickaxe",
-      "item.overkill.thaumite_shovel": "Thaumite Shovel",
-      "item.overkill.thaumite_hoe": "Thaumite Hoe",
-      "item.overkill.thalamite_armor_boots": "Thalamite Boots",
-      "item.overkill.thaumite_pickaxe": "Thaumite Pickaxe",
-      "item.overkill.thalamite_armor_leggings": "Thalamite Leggings",
-      "item.overkill.thalamite_armor_chestplate": "Thalamite Chestplate",
+      "item.overkill.thalimite_hoe": "Thalimite Hoe",
+      "item.overkill.thalimite_shovel": "Thalimite Shovel",
       "fluid.overkill.nitrogyen": "Nitrogyen"
     }
   },

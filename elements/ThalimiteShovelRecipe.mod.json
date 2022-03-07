@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ThalimiteIngot"
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ThaumiteSword"
+      "value": "CUSTOM:ThalimiteShovel"
     },
-    "name": "thaumite_sword_recipe",
+    "name": "thalimite_shovel_recipe",
     "namespace": "mod"
   }
 }

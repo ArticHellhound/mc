@@ -8,33 +8,35 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.CreativeModeTab;
 
-public class ThaumiteHoeItem extends HoeItem {
-	public ThaumiteHoeItem() {
+import net.mcreator.overkill.init.OverkillModItems;
+
+public class ThalimiteHoeItem extends HoeItem {
+	public ThalimiteHoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 4595;
+				return 250;
 			}
 
 			public float getSpeed() {
-				return 21f;
+				return 6f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 42067f;
+				return 0f;
 			}
 
 			public int getLevel() {
-				return 16;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
-				return 112;
+				return 14;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack());
+				return Ingredient.of(new ItemStack(OverkillModItems.THALIMITE_INGOT));
 			}
 		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("thaumite_hoe");
+		setRegistryName("thalimite_hoe");
 	}
 }

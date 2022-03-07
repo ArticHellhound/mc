@@ -8,33 +8,35 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
-public class ThaumiteSwordItem extends SwordItem {
-	public ThaumiteSwordItem() {
+import net.mcreator.overkill.init.OverkillModItems;
+
+public class ThalimiteSwordItem extends SwordItem {
+	public ThalimiteSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 4595;
+				return 250;
 			}
 
 			public float getSpeed() {
-				return 21f;
+				return 6f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 46f;
+				return 4f;
 			}
 
 			public int getLevel() {
-				return 16;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
-				return 112;
+				return 14;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack());
+				return Ingredient.of(new ItemStack(OverkillModItems.THALIMITE_INGOT));
 			}
 		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-		setRegistryName("thaumite_sword");
+		setRegistryName("thalimite_sword");
 	}
 }
