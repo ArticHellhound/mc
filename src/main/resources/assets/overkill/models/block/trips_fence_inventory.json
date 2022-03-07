@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "overkill:blocks/trips_planks",
+    "particle": "overkill:blocks/trips_planks"
+  }
+}

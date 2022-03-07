@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "overkill:block/trips_slab"
+    },
+    "type=top": {
+      "model": "overkill:block/trips_slab_top"
+    },
+    "type=double": {
+      "model": "overkill:block/trips_slab_full"
+    }
+  }
+}

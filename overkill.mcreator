@@ -197,25 +197,204 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thalimite_hoe_recipe"
+    },
+    {
+      "name": "TripsWood",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_wood"
+    },
+    {
+      "name": "TripsLog",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_log"
+    },
+    {
+      "name": "TripsPlanks",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_planks"
+    },
+    {
+      "name": "TripsLeaves",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_leaves"
+    },
+    {
+      "name": "TripsStairs",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_stairs"
+    },
+    {
+      "name": "TripsSlab",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_slab"
+    },
+    {
+      "name": "TripsFence",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_fence"
+    },
+    {
+      "name": "TripsFenceGate",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_fence_gate"
+    },
+    {
+      "name": "TripsPressurePlate",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_pressure_plate"
+    },
+    {
+      "name": "TripsButton",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_button"
+    },
+    {
+      "name": "TripsItemsTag",
+      "type": "tag",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_items_tag"
+    },
+    {
+      "name": "TripsWoodRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_wood_recipe"
+    },
+    {
+      "name": "TripsPlanksRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_planks_recipe"
+    },
+    {
+      "name": "TripsStairsRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_stairs_recipe"
+    },
+    {
+      "name": "TripsSlabRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_slab_recipe"
+    },
+    {
+      "name": "TripsFenceRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_fence_recipe"
+    },
+    {
+      "name": "TripsFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_fence_gate_recipe"
+    },
+    {
+      "name": "TripsPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_pressure_plate_recipe"
+    },
+    {
+      "name": "TripsButtonRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_button_recipe"
+    },
+    {
+      "name": "TripsStickRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trips_stick_recipe"
+    },
+    {
+      "name": "Trip",
+      "type": "biome",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trip"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.overkill.trips_planks": "Trips Planks",
+      "block.overkill.trips_pressure_plate": "Trips Pressure Plate",
       "item.overkill.thalimite_ingot": "Thalimite",
-      "block.overkill.thalimite_ore": "Thalimite Ore",
-      "item.overkill.thalimite_axe": "Thalimite Axe",
       "block.overkill.nitrogyen": "Nitrogyen",
       "item.overkill.thalimite_pickaxe": "Thalimite Pickaxe",
+      "block.overkill.trips_wood": "Trips Wood",
+      "block.overkill.trips_leaves": "Trips Leaves",
+      "item.overkill.thalimite_hoe": "Thalimite Hoe",
+      "block.overkill.trips_fence": "Trips Fence",
+      "block.overkill.trips_log": "Trips Log",
+      "block.overkill.trips_fence_gate": "Trips Fence Gate",
+      "fluid.overkill.nitrogyen": "Nitrogyen",
+      "block.overkill.thalimite_ore": "Thalimite Ore",
+      "item.overkill.thalimite_axe": "Thalimite Axe",
       "item.overkill.thalimite_sword": "Thalimite Sword",
       "item.overkill.fanale": "Fanale Portal Igniter",
+      "biome.overkill.trip": "Trip",
       "item.overkill.nitrogyen_bucket": "Nitrogyen Bucket",
       "block.overkill.thalimite_block": "Block of Thalimite",
       "item.overkill.shickaxe": "Shickaxe",
-      "item.overkill.thalimite_hoe": "Thalimite Hoe",
       "item.overkill.thalimite_shovel": "Thalimite Shovel",
-      "fluid.overkill.nitrogyen": "Nitrogyen"
+      "block.overkill.trips_stairs": "Trips Stairs",
+      "block.overkill.trips_slab": "Trips Slab",
+      "block.overkill.trips_button": "Trips Button"
     }
   },
   "foldersRoot": {

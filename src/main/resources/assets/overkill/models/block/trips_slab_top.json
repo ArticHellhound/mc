@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "overkill:blocks/trips_planks",
+    "top": "overkill:blocks/trips_planks",
+    "side": "overkill:blocks/trips_planks"
+  }
+}

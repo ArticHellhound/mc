@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "overkill:block/trips_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "overkill:block/trips_wood"
+    },
+    "axis=z": {
+      "model": "overkill:block/trips_wood",
+      "x": 90
+    }
+  }
+}

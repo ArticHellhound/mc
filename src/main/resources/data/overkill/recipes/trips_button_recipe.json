@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "overkill:trips_planks"
+    }
+  ],
+  "result": {
+    "item": "overkill:trips_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:trips_log"
+    }
+  ],
+  "result": {
+    "item": "overkill:trips_planks",
+    "count": 4
+  }
+}

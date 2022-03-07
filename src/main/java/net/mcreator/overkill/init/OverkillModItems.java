@@ -40,6 +40,16 @@ public class OverkillModItems {
 	public static final Item THALIMITE_SWORD = register(new ThalimiteSwordItem());
 	public static final Item THALIMITE_SHOVEL = register(new ThalimiteShovelItem());
 	public static final Item THALIMITE_HOE = register(new ThalimiteHoeItem());
+	public static final Item TRIPS_WOOD = register(OverkillModBlocks.TRIPS_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item TRIPS_LOG = register(OverkillModBlocks.TRIPS_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item TRIPS_PLANKS = register(OverkillModBlocks.TRIPS_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item TRIPS_LEAVES = register(OverkillModBlocks.TRIPS_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item TRIPS_STAIRS = register(OverkillModBlocks.TRIPS_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item TRIPS_SLAB = register(OverkillModBlocks.TRIPS_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item TRIPS_FENCE = register(OverkillModBlocks.TRIPS_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item TRIPS_FENCE_GATE = register(OverkillModBlocks.TRIPS_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
+	public static final Item TRIPS_PRESSURE_PLATE = register(OverkillModBlocks.TRIPS_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final Item TRIPS_BUTTON = register(OverkillModBlocks.TRIPS_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

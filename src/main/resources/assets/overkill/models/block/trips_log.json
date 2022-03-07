@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "overkill:blocks/trips_log_top",
+    "up": "overkill:blocks/trips_log_top",
+    "north": "overkill:blocks/trips_log_side",
+    "east": "overkill:blocks/trips_log_side",
+    "south": "overkill:blocks/trips_log_side",
+    "west": "overkill:blocks/trips_log_side",
+    "particle": "overkill:blocks/trips_log_top"
+  }
+}

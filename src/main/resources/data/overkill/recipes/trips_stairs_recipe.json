@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "overkill:trips_planks"
+    },
+    "3": {
+      "item": "overkill:trips_planks"
+    },
+    "4": {
+      "item": "overkill:trips_planks"
+    },
+    "6": {
+      "item": "overkill:trips_planks"
+    },
+    "7": {
+      "item": "overkill:trips_planks"
+    },
+    "8": {
+      "item": "overkill:trips_planks"
+    }
+  },
+  "result": {
+    "item": "overkill:trips_stairs",
+    "count": 4
+  }
+}
