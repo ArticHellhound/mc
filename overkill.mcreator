@@ -443,6 +443,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coffeat_recipie"
+    },
+    {
+      "name": "CoffeeRecipie",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_recipie"
+    },
+    {
+      "name": "FanaleRecipie",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fanale_recipie"
     }
   ],
   "variable_elements": [],
@@ -497,6 +513,7 @@
       "item.overkill.thalimite_sword": "Thalimite Sword",
       "item.overkill.fanale": "Fanale Portal Igniter",
       "item.overkill.coffee": "Coffee",
+      "item.overkill.coffeat": "Coffeat",
       "biome.overkill.trip": "Trip",
       "item.overkill.nitrogyen_bucket": "Nitrogyen Bucket",
       "subtitles.coffee": "",
