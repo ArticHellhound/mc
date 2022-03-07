@@ -1,4 +1,13 @@
 {
+  "gtahub": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "overkill:gta_san_andreas_pornhub_theme",
+        "stream": false
+      }
+    ]
+  },
   "copying_you_speed": {
     "category": "music",
     "subtitle": "subtitles.copying_you_speed",
@@ -9,12 +18,11 @@
       }
     ]
   },
-  "gtahub": {
-    "category": "voice",
-    "subtitle": "subtitles.gtahub",
+  "coffee": {
+    "category": "neutral",
     "sounds": [
       {
-        "name": "overkill:gta_san_andreas_pornhub_theme",
+        "name": "overkill:screen_recording_20220307-181744_youtube",
         "stream": false
       }
     ]

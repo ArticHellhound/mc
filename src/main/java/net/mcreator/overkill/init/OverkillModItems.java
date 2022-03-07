@@ -24,6 +24,7 @@ import net.mcreator.overkill.item.ShickaxeItem;
 import net.mcreator.overkill.item.Secret1Item;
 import net.mcreator.overkill.item.NitrogyenItem;
 import net.mcreator.overkill.item.FanaleItem;
+import net.mcreator.overkill.item.CoffeeItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -57,6 +58,7 @@ public class OverkillModItems {
 	public static final Item THALIMITE_ARMOR_LEGGINGS = register(new ThalimiteArmorItem.Leggings());
 	public static final Item THALIMITE_ARMOR_BOOTS = register(new ThalimiteArmorItem.Boots());
 	public static final Item SECRET_1 = register(new Secret1Item());
+	public static final Item COFFEE = register(new CoffeeItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
