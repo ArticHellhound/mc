@@ -413,6 +413,14 @@
       "registry_name": "thalimite_armor_boots_recipe"
     },
     {
+      "name": "Coffee",
+      "type": "musicdisc",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee"
+    },
+    {
       "name": "Secret1",
       "type": "musicdisc",
       "sortid": 60,
@@ -421,16 +429,32 @@
       "registry_name": "secret_1"
     },
     {
-      "name": "Coffee",
-      "type": "musicdisc",
-      "sortid": 60,
+      "name": "Coffeat",
+      "type": "food",
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coffee"
+      "registry_name": "coffeat"
+    },
+    {
+      "name": "CoffeatRecipie",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffeat_recipie"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
+    {
+      "name": "coffee",
+      "files": [
+        "screen_recording_20220307-181744_youtube"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
     {
       "name": "gtahub",
       "files": [
@@ -446,14 +470,6 @@
       ],
       "category": "music",
       "subtitle": "speed fnf"
-    },
-    {
-      "name": "coffee",
-      "files": [
-        "screen_recording_20220307-181744_youtube"
-      ],
-      "category": "neutral",
-      "subtitle": ""
     }
   ],
   "language_map": {
