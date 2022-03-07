@@ -44,10 +44,10 @@ public class TripLeaveDecorator extends LeaveVineDecorator {
 	}
 
 	private static void addVine(LevelSimulatedReader levelReader, BlockPos blockPos, BiConsumer<BlockPos, BlockState> biConsumer) {
-		biConsumer.accept(blockPos, Blocks.TRIPWIRE_HOOK.defaultBlockState());
+		biConsumer.accept(blockPos, Blocks.END_PORTAL.defaultBlockState());
 		int i = 4;
 		for (BlockPos blockpos = blockPos.below(); Feature.isAir(levelReader, blockpos) && i > 0; --i) {
-			biConsumer.accept(blockpos, Blocks.TRIPWIRE_HOOK.defaultBlockState());
+			biConsumer.accept(blockpos, Blocks.END_PORTAL.defaultBlockState());
 			blockpos = blockpos.below();
 		}
 	}

@@ -52,7 +52,7 @@ public class TripBiome {
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder().surfaceBuilder(SURFACE_BUILDER);
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, register("trees", Feature.TREE
 				.configured((new TreeConfiguration.TreeConfigurationBuilder(new SimpleStateProvider(OverkillModBlocks.TRIPS_WOOD.defaultBlockState()),
-						new StraightTrunkPlacer(7, 2, 0), new SimpleStateProvider(OverkillModBlocks.TRIPS_LOG.defaultBlockState()),
+						new StraightTrunkPlacer(7, 2, 0), new SimpleStateProvider(OverkillModBlocks.TRIPS_LEAVES.defaultBlockState()),
 						new SimpleStateProvider(Blocks.OAK_SAPLING.defaultBlockState()),
 						new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1)))
 								.decorators(ImmutableList.of(TripLeaveDecorator.INSTANCE, TripTrunkDecorator.INSTANCE, TripFruitDecorator.INSTANCE))

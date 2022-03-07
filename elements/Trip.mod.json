@@ -76,10 +76,10 @@
       "value": "CUSTOM:TripsWood"
     },
     "treeBranch": {
-      "value": "CUSTOM:TripsLog"
+      "value": "CUSTOM:TripsLeaves"
     },
     "treeVines": {
-      "value": "Blocks.TRIPWIRE_HOOK"
+      "value": "Blocks.END_PORTAL"
     },
     "treeFruits": {
       "value": "Blocks.PORTAL"
