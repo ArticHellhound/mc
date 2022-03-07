@@ -411,19 +411,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thalimite_armor_boots_recipe"
+    },
+    {
+      "name": "Secret1",
+      "type": "musicdisc",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secret_1"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "gtahub",
+      "files": [
+        "gta_san_andreas_pornhub_theme"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.overkill.trips_planks": "Trips Planks",
       "block.overkill.trips_pressure_plate": "Trips Pressure Plate",
       "item.overkill.thalimite_ingot": "Thalimite",
+      "item.overkill.secret_1": "Secret 1",
       "item.overkill.thalimite_armor_leggings": "Thalimite Leggings",
       "block.overkill.nitrogyen": "Nitrogyen",
       "item.overkill.thalimite_pickaxe": "Thalimite Pickaxe",
       "block.overkill.trips_wood": "Trips Wood",
+      "item.overkill.secret_1.desc": "your mother mc",
       "item.overkill.thalimite_armor_boots": "Thalimite Boots",
       "block.overkill.trips_leaves": "Trips Leaves",
       "item.overkill.thalimite_hoe": "Thalimite Hoe",
@@ -440,6 +459,7 @@
       "item.overkill.nitrogyen_bucket": "Nitrogyen Bucket",
       "block.overkill.thalimite_block": "Block of Thalimite",
       "item.overkill.shickaxe": "Shickaxe",
+      "subtitles.gtahub": "",
       "item.overkill.thalimite_armor_chestplate": "Thalimite Chestplate",
       "item.overkill.thalimite_shovel": "Thalimite Shovel",
       "block.overkill.trips_stairs": "Trips Stairs",
