@@ -10,10 +10,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:ThalimiteIngot"
+        "value": "CUSTOM:ThalimiteBlock"
       },
       {
-        "value": "CUSTOM:ThalimiteIngot"
+        "value": "CUSTOM:ThalimiteBlock"
       },
       {
         "value": ""

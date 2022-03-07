@@ -14,7 +14,7 @@ public class ThalimiteHoeItem extends HoeItem {
 	public ThalimiteHoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 3;
 			}
 
 			public float getSpeed() {
@@ -22,7 +22,7 @@ public class ThalimiteHoeItem extends HoeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 99997f;
 			}
 
 			public int getLevel() {

@@ -23,7 +23,7 @@ public class ShickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 40f;
+				return 40000f;
 			}
 
 			public float getAttackDamageBonus() {
