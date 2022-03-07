@@ -20,6 +20,7 @@ public class OverkillModSounds {
 	static {
 		REGISTRY.put(new ResourceLocation("overkill", "coffee"), new SoundEvent(new ResourceLocation("overkill", "coffee")));
 		REGISTRY.put(new ResourceLocation("overkill", "gtahub"), new SoundEvent(new ResourceLocation("overkill", "gtahub")));
+		REGISTRY.put(new ResourceLocation("overkill", "copying_you_speed"), new SoundEvent(new ResourceLocation("overkill", "copying_you_speed")));
 	}
 
 	@SubscribeEvent
