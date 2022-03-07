@@ -21,17 +21,17 @@ public abstract class ThalimiteArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 30;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{4, 12, 10, 4}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 18;
 			}
 
 			@Override
@@ -69,7 +69,7 @@ public abstract class ThalimiteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "overkill:textures/models/armor/thalimite_layer_1.png";
+			return "overkill:textures/models/armor/thalamite_layer_1.png";
 		}
 	}
 
@@ -81,7 +81,7 @@ public abstract class ThalimiteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "overkill:textures/models/armor/thalimite_layer_1.png";
+			return "overkill:textures/models/armor/thalamite_layer_1.png";
 		}
 	}
 
@@ -93,7 +93,7 @@ public abstract class ThalimiteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "overkill:textures/models/armor/thalimite_layer_2.png";
+			return "overkill:textures/models/armor/thalamite_layer_2.png";
 		}
 	}
 
@@ -105,7 +105,7 @@ public abstract class ThalimiteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "overkill:textures/models/armor/thalimite_layer_1.png";
+			return "overkill:textures/models/armor/thalamite_layer_1.png";
 		}
 	}
 }
