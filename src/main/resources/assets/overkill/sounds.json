@@ -1,4 +1,13 @@
 {
+  "coffee": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "overkill:screen_recording_20220307-181744_youtube",
+        "stream": false
+      }
+    ]
+  },
   "gtahub": {
     "category": "neutral",
     "sounds": [
@@ -15,15 +24,6 @@
       {
         "name": "overkill:ishowspeed_vs_talking_ben_the_fnf_mod",
         "stream": true
-      }
-    ]
-  },
-  "coffee": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "overkill:screen_recording_20220307-181744_youtube",
-        "stream": false
       }
     ]
   }
