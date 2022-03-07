@@ -424,12 +424,20 @@
   "variable_elements": [],
   "sound_elements": [
     {
+      "name": "copying_you_speed",
+      "files": [
+        "ishowspeed_vs_talking_ben_the_fnf_mod"
+      ],
+      "category": "music",
+      "subtitle": "speed fnf"
+    },
+    {
       "name": "gtahub",
       "files": [
         "gta_san_andreas_pornhub_theme"
       ],
-      "category": "neutral",
-      "subtitle": ""
+      "category": "voice",
+      "subtitle": "moaning"
     }
   ],
   "language_map": {
@@ -440,13 +448,14 @@
       "item.overkill.secret_1": "Secret 1",
       "item.overkill.thalimite_armor_leggings": "Thalimite Leggings",
       "block.overkill.nitrogyen": "Nitrogyen",
-      "block.overkill.trips_wood": "Trips Wood",
       "item.overkill.thalimite_pickaxe": "Thalimite Pickaxe",
+      "block.overkill.trips_wood": "Trips Wood",
       "item.overkill.secret_1.desc": "your mother mc",
       "item.overkill.thalimite_armor_boots": "Thalimite Boots",
       "block.overkill.trips_leaves": "Trips Leaves",
       "item.overkill.thalimite_hoe": "Thalimite Hoe",
       "block.overkill.trips_fence": "Trips Fence",
+      "subtitles.copying_you_speed": "speed fnf",
       "block.overkill.trips_log": "Trips Log",
       "block.overkill.trips_fence_gate": "Trips Fence Gate",
       "item.overkill.thalimite_armor_helmet": "Thalimite Helmet",
@@ -459,7 +468,7 @@
       "item.overkill.nitrogyen_bucket": "Nitrogyen Bucket",
       "block.overkill.thalimite_block": "Block of Thalimite",
       "item.overkill.shickaxe": "Shickaxe",
-      "subtitles.gtahub": "",
+      "subtitles.gtahub": "moaning",
       "item.overkill.thalimite_armor_chestplate": "Thalimite Chestplate",
       "item.overkill.thalimite_shovel": "Thalimite Shovel",
       "block.overkill.trips_stairs": "Trips Stairs",

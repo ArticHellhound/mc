@@ -1,6 +1,17 @@
 {
+  "copying_you_speed": {
+    "category": "music",
+    "subtitle": "subtitles.copying_you_speed",
+    "sounds": [
+      {
+        "name": "overkill:ishowspeed_vs_talking_ben_the_fnf_mod",
+        "stream": true
+      }
+    ]
+  },
   "gtahub": {
-    "category": "neutral",
+    "category": "voice",
+    "subtitle": "subtitles.gtahub",
     "sounds": [
       {
         "name": "overkill:gta_san_andreas_pornhub_theme",
