@@ -532,15 +532,6 @@
       "path": "~/Burple"
     },
     {
-      "name": "Burple",
-      "type": "item",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "burple",
-      "path": "~/Burple"
-    },
-    {
       "name": "BurpleArmorLeggingsRecipe",
       "type": "recipe",
       "sortid": 84,
@@ -694,6 +685,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "test"
+    },
+    {
+      "name": "NitrogyenMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitrogyen_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -756,7 +763,6 @@
       "entity.overkill.test": "Test",
       "block.overkill.trips_slab": "Trips Slab",
       "block.overkill.trips_button": "Trips Button",
-      "item.overkill.burple": "Burple",
       "item.overkill.thalimite_ingot": "Thalimite",
       "item.overkill.secret_1": "Secret 1",
       "item.overkill.test_spawn_egg": "Test Spawn Egg",
@@ -794,11 +800,12 @@
     "modid": "overkill",
     "modName": "Uptick",
     "version": "1.0.0",
-    "author": "Owner, MCreator",
+    "author": "Artic HellHound,Lil_run4cov3r,MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "nitrogyen",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

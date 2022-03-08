@@ -29,7 +29,6 @@ import net.mcreator.overkill.item.CoffeeItem;
 import net.mcreator.overkill.item.CoffeatItem;
 import net.mcreator.overkill.item.BurpleShovelItem;
 import net.mcreator.overkill.item.BurplePickaxeItem;
-import net.mcreator.overkill.item.BurpleItem;
 import net.mcreator.overkill.item.BurpleIngotItem;
 import net.mcreator.overkill.item.BurpleHoeItem;
 import net.mcreator.overkill.item.BurpleAxeItem;
@@ -71,7 +70,6 @@ public class OverkillModItems {
 	public static final Item SECRET_1 = register(new Secret1Item());
 	public static final Item COFFEAT = register(new CoffeatItem());
 	public static final Item BURPLE_INGOT = register(new BurpleIngotItem());
-	public static final Item BURPLE = register(new BurpleItem());
 	public static final Item BURPLE_ORE = register(OverkillModBlocks.BURPLE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item BURPLE_BLOCK = register(OverkillModBlocks.BURPLE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item BURPLE_PICKAXE = register(new BurplePickaxeItem());
