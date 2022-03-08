@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "Items.DIAMOND"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.AMETHYST_SHARD"
+        "value": "CUSTOM:BurpleIngot"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:BurpleIngot"
+      },
+      {
+        "value": "CUSTOM:BurpleIngot"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:BurpleIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Fanale"
+      "value": "CUSTOM:BurpleArmor.boots"
     },
-    "name": "fanale_recipie",
+    "name": "burple_armor_boots_recipe",
     "namespace": "mod"
   }
 }

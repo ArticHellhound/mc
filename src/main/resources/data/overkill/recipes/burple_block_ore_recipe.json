@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "overkill:burple_block"
+    }
+  ],
+  "result": {
+    "item": "overkill:burple_ingot",
+    "count": 9
+  }
+}

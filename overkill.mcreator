@@ -483,6 +483,225 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thalamitedrop"
+    },
+    {
+      "name": "BurpleHoe",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_hoe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleOreSmelting",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_ore_smelting",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleShovelRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_shovel_recipe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurplePickaxe",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_pickaxe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "MadeYouMother",
+      "type": "achievement",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "made_you_mother",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleIngot",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_ingot",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleOre",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_ore",
+      "path": "~/Burple"
+    },
+    {
+      "name": "Burple",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_armor_leggings_recipe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "Blurple",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blurple"
+    },
+    {
+      "name": "BurpleBlock",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_block",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_block_ore_recipe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleAxe",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_axe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleAxeRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_axe_recipe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_ore_block_recipe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleArmor",
+      "type": "armor",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleHoeRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_hoe_recipe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "Test",
+      "type": "livingentity",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test"
+    },
+    {
+      "name": "BurpleShovel",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_shovel",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_armor_body_recipe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurpleArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_armor_boots_recipe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "Balls",
+      "type": "musicdisc",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balls"
+    },
+    {
+      "name": "BurpleArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_armor_helmet_recipe",
+      "path": "~/Burple"
+    },
+    {
+      "name": "BurplePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burple_pickaxe_recipe",
+      "path": "~/Burple"
     }
   ],
   "variable_elements": [],
@@ -514,47 +733,52 @@
   ],
   "language_map": {
     "en_us": {
-      "block.overkill.trips_planks": "Trips Planks",
       "block.overkill.trips_pressure_plate": "Trips Pressure Plate",
-      "item.overkill.thalimite_ingot": "Thalimite",
-      "item.overkill.secret_1": "Secret 1",
+      "block.overkill.trips_planks": "Trips Planks",
       "item.overkill.thalimite_armor_leggings": "Thalimite Leggings",
-      "block.overkill.nitrogyen": "Nitrogyen",
-      "block.overkill.trips_wood": "Trips Wood",
-      "item.overkill.thalimite_pickaxe": "Thalimite Pickaxe",
       "item.overkill.secret_1.desc": "your mother mc",
       "item.overkill.thalimite_armor_boots": "Thalimite Boots",
       "block.overkill.trips_leaves": "Trips Leaves",
-      "item.overkill.thalimite_hoe": "Thalimite Hoe",
       "block.overkill.trips_fence": "Trips Fence",
       "subtitles.copying_you_speed": "speed fnf",
       "block.overkill.trips_log": "Trips Log",
-      "block.overkill.trips_fence_gate": "Trips Fence Gate",
       "item.overkill.thalimite_armor_helmet": "Thalimite Helmet",
       "fluid.overkill.nitrogyen": "Nitrogyen",
       "block.overkill.thalimite_ore": "Thalimite Ore",
-      "item.overkill.thalimite_axe": "Thalimite Axe",
-      "item.overkill.thalimite_sword": "Thalimite Sword",
-      "item.overkill.fanale": "Fanale Portal Igniter",
       "item.overkill.coffee": "Coffee",
       "item.overkill.coffeat": "Coffeat",
-      "biome.overkill.trip": "Trip",
       "item.overkill.nitrogyen_bucket": "Nitrogyen Bucket",
-      "subtitles.coffee": "",
-      "block.overkill.thalimite_block": "Block of Thalimite",
-      "item.overkill.shickaxe": "Shickaxe",
       "subtitles.gtahub": "",
       "item.overkill.thalimite_armor_chestplate": "Thalimite Chestplate",
       "item.overkill.thalimite_shovel": "Thalimite Shovel",
       "block.overkill.trips_stairs": "Trips Stairs",
       "block.overkill.trips_slab": "Trips Slab",
-      "item.overkill.coffee.desc": "COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE",
-      "block.overkill.trips_button": "Trips Button"
+      "block.overkill.trips_button": "Trips Button",
+      "item.overkill.thalimite_ingot": "Thalimite",
+      "item.overkill.secret_1": "Secret 1",
+      "block.overkill.nitrogyen": "Nitrogyen",
+      "block.overkill.trips_wood": "Trips Wood",
+      "item.overkill.thalimite_pickaxe": "Thalimite Pickaxe",
+      "item.overkill.thalimite_hoe": "Thalimite Hoe",
+      "block.overkill.trips_fence_gate": "Trips Fence Gate",
+      "item.overkill.thalimite_axe": "Thalimite Axe",
+      "item.overkill.thalimite_sword": "Thalimite Sword",
+      "item.overkill.fanale": "Fanale Portal Igniter",
+      "biome.overkill.trip": "Trip",
+      "subtitles.coffee": "",
+      "block.overkill.thalimite_block": "Block of Thalimite",
+      "item.overkill.shickaxe": "Shickaxe",
+      "item.overkill.coffee.desc": "COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE COFFEE"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Burple",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "overkill",

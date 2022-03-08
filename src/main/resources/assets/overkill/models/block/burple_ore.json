@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "overkill:blocks/burple_ore",
+    "particle": "overkill:blocks/burple_ore"
+  }
+}
