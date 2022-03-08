@@ -18,7 +18,7 @@ import java.util.List;
 
 public class CoffeeItem extends RecordItem {
 	public CoffeeItem() {
-		super(0, OverkillModSounds.REGISTRY.get(new ResourceLocation("overkill:coffee")),
+		super(0, OverkillModSounds.REGISTRY.get(new ResourceLocation("overkill:coffie")),
 				new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.RARE));
 		setRegistryName("coffee");
 	}

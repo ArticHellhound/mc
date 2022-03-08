@@ -26,5 +26,15 @@
         "stream": true
       }
     ]
+  },
+  "coffie": {
+    "category": "neutral",
+    "subtitle": "subtitles.coffie",
+    "sounds": [
+      {
+        "name": "overkill:coffee_coffee_coffee_coffee_coffee_coffee_coffee_coffee_coffee_coffee_coffee_coffee_coffee_coffee_co",
+        "stream": false
+      }
+    ]
   }
 }
