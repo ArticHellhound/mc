@@ -8,8 +8,7 @@ version="1.0.0"
 displayName="Uptick"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-logoFile="logo.png"
-authors="Artic HellHound,Lil_run4cov3r,MCreator"
+authors="Owner, MCreator"
 
 [[dependencies.overkill]]
     modId="minecraft"
