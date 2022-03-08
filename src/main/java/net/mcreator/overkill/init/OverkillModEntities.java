@@ -23,8 +23,8 @@ import java.util.ArrayList;
 public class OverkillModEntities {
 	private static final List<EntityType<?>> REGISTRY = new ArrayList<>();
 	public static final EntityType<TestEntity> TEST = register("test",
-			EntityType.Builder.<TestEntity>of(TestEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(TestEntity::new).sized(0.6f, 1.8f));
+			EntityType.Builder.<TestEntity>of(TestEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(99)
+					.setUpdateInterval(3).setCustomClientFactory(TestEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);

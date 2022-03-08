@@ -83,8 +83,9 @@ public class OverkillModItems {
 	public static final Item BURPLE_ARMOR_LEGGINGS = register(new BurpleArmorItem.Leggings());
 	public static final Item BURPLE_ARMOR_BOOTS = register(new BurpleArmorItem.Boots());
 	public static final Item BALLS = register(new BallsItem());
-	public static final Item TEST = register(new SpawnEggItem(OverkillModEntities.TEST, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
-			.setRegistryName("test_spawn_egg"));
+	public static final Item TEST = register(
+			new SpawnEggItem(OverkillModEntities.TEST, -16776961, -10027009, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("test_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
