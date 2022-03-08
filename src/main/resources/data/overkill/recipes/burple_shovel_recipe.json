@@ -7,7 +7,7 @@
   ],
   "key": {
     "0": {
-      "item": "overkill:deleted_mod_element"
+      "item": "overkill:burple_ingot"
     },
     "1": {
       "item": "minecraft:stick"
@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "overkill:deleted_mod_element",
+    "item": "overkill:burple_shovel",
     "count": 1
   }
 }

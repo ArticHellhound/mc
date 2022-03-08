@@ -1,7 +1,14 @@
 
 package net.mcreator.overkill.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.overkill.init.OverkillModItems;
 
 public class BurplePickaxeItem extends PickaxeItem {
 	public BurplePickaxeItem() {
@@ -27,15 +34,9 @@ public class BurplePickaxeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(OverkillModItems.DELETED_MOD_ELEMENT));
+				return Ingredient.of(new ItemStack(OverkillModItems.BURPLE_INGOT));
 			}
-		},
-
-				1, 6f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-
+		}, 1, 6f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 		setRegistryName("burple_pickaxe");
 	}
-
 }
