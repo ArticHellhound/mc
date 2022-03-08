@@ -15,6 +15,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.overkill.entity.TestEntity;
+import net.mcreator.overkill.entity.SkibEntity;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -25,6 +26,9 @@ public class OverkillModEntities {
 	public static final EntityType<TestEntity> TEST = register("test",
 			EntityType.Builder.<TestEntity>of(TestEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(99)
 					.setUpdateInterval(3).setCustomClientFactory(TestEntity::new).sized(0.6f, 1.7f));
+	public static final EntityType<SkibEntity> SKIB = register("skib",
+			EntityType.Builder.<SkibEntity>of(SkibEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(SkibEntity::new).sized(0.6f, 1.8f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -41,11 +45,13 @@ public class OverkillModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			TestEntity.init();
+			SkibEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(TEST, TestEntity.createAttributes().build());
+		event.put(SKIB, SkibEntity.createAttributes().build());
 	}
 }

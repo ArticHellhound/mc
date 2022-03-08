@@ -22,7 +22,7 @@ public class BurpleAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 7f;
+				return 99997f;
 			}
 
 			public int getLevel() {
