@@ -1,22 +1,10 @@
 
 package net.mcreator.overkill.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.overkill.init.OverkillModItems;
 
 public abstract class BurpleArmorItem extends ArmorItem {
+
 	public BurpleArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -62,8 +50,10 @@ public abstract class BurpleArmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends BurpleArmorItem {
+
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+
 			setRegistryName("burple_armor_helmet");
 		}
 
@@ -71,11 +61,14 @@ public abstract class BurpleArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "overkill:textures/models/armor/burple_layer_1.png";
 		}
+
 	}
 
 	public static class Chestplate extends BurpleArmorItem {
+
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+
 			setRegistryName("burple_armor_chestplate");
 		}
 
@@ -83,11 +76,14 @@ public abstract class BurpleArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "overkill:textures/models/armor/burple_layer_1.png";
 		}
+
 	}
 
 	public static class Leggings extends BurpleArmorItem {
+
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+
 			setRegistryName("burple_armor_leggings");
 		}
 
@@ -95,11 +91,14 @@ public abstract class BurpleArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "overkill:textures/models/armor/burple_layer_2.png";
 		}
+
 	}
 
 	public static class Boots extends BurpleArmorItem {
+
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+
 			setRegistryName("burple_armor_boots");
 		}
 
@@ -107,5 +106,7 @@ public abstract class BurpleArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "overkill:textures/models/armor/burple_layer_1.png";
 		}
+
 	}
+
 }

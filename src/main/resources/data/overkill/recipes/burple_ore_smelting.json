@@ -3,9 +3,9 @@
   "experience": 0.7,
   "cookingtime": 200,
   "ingredient": {
-    "item": "overkill:burple_ore"
+    "item": "overkill:deleted_mod_element"
   },
   "result": {
-    "item": "overkill:burple_ingot"
+    "item": "overkill:deleted_mod_element"
   }
 }
