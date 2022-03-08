@@ -16,9 +16,8 @@ import net.mcreator.overkill.init.OverkillModFluids;
 
 public class NitrogyenBlock extends LiquidBlock {
 	public NitrogyenBlock() {
-		super(OverkillModFluids.NITROGYEN, BlockBehaviour.Properties.of(Material.WATER).strength(100f)
-
-				.lightLevel(s -> 5));
+		super(OverkillModFluids.NITROGYEN, BlockBehaviour.Properties.of(Material.WATER).strength(100f).hasPostProcess((bs, br, bp) -> true)
+				.emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 5));
 		setRegistryName("nitrogyen");
 	}
 
