@@ -16,6 +16,7 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.navigation.WaterBoundPathNavigation;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
@@ -47,7 +48,7 @@ import net.mcreator.overkill.init.OverkillModItems;
 import net.mcreator.overkill.init.OverkillModEntities;
 
 @Mod.EventBusSubscriber
-public class TestEntity extends Monster {
+public class TestEntity extends Zombie {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
 		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(OverkillModEntities.TEST, 20, 4, 4));
@@ -112,9 +113,9 @@ public class TestEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
+		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 3, true));
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(3, new HurtByTargetGoal(this).setAlertOthers(this.getClass()));
+		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
 	}
@@ -207,6 +208,7 @@ public class TestEntity extends Monster {
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 10);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 1);
 		builder = builder.add(ForgeMod.SWIM_SPEED.get(), 0.3);
+		builder = builder.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE);
 		return builder;
 	}
 }

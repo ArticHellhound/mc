@@ -19,7 +19,7 @@ public class TestRenderer extends HumanoidMobRenderer<TestEntity, HumanoidModel<
 		this.addLayer(new EyesLayer<TestEntity, HumanoidModel<TestEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("overkill:textures/nitro.png"));
+				return RenderType.eyes(new ResourceLocation("overkill:textures/nitrogyen.png"));
 			}
 		});
 	}
