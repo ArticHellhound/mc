@@ -31,9 +31,9 @@
       "value": "Blocks.END_STONE"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "SPIT"
     },
-    "portalLuminance": 0,
+    "portalLuminance": 10,
     "portalSound": {
       "value": "block.portal.ambient"
     },

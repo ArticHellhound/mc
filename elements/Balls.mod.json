@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "secret",
+    "name": "Balls",
+    "description": "aa",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:copying_you_speed"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

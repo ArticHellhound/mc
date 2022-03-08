@@ -2,27 +2,27 @@
   "_fv": 24,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
-    "xpReward": 0.0,
+    "recipeType": "Smelting",
+    "xpReward": 0.7,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "Items.DIAMOND"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Items.AMETHYST_SHARD"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
@@ -38,9 +38,15 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Fanale"
+      "value": ""
     },
-    "name": "fanale_recipie",
+    "smeltingInputStack": {
+      "value": "CUSTOM:BurpleOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:BurpleIngot"
+    },
+    "name": "burple_ore_smelting",
     "namespace": "mod"
   }
 }

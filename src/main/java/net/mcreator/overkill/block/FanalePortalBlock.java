@@ -31,7 +31,7 @@ import java.util.Optional;
 
 public class FanalePortalBlock extends NetherPortalBlock {
 	public FanalePortalBlock() {
-		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 0)
+		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 10)
 				.noDrops());
 		setRegistryName("fanale_portal");
 	}
@@ -80,7 +80,7 @@ public class FanalePortalBlock extends NetherPortalBlock {
 				pz = pos.getZ() + 0.5 + 0.25 * j;
 				vz = random.nextFloat() * 2 * j;
 			}
-			world.addParticle(ParticleTypes.EXPLOSION, px, py, pz, vx, vy, vz);
+			world.addParticle(ParticleTypes.SPIT, px, py, pz, vx, vy, vz);
 		}
 		if (random.nextInt(110) == 0)
 			world.playSound(null, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,

@@ -17,6 +17,7 @@ import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.overkill.world.features.ores.ThalimiteOreFeature;
+import net.mcreator.overkill.world.features.ores.BurpleOreFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -28,6 +29,8 @@ public class OverkillModFeatures {
 	static {
 		REGISTRY.put(ThalimiteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				ThalimiteOreFeature.GENERATE_BIOMES, ThalimiteOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(BurpleOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, BurpleOreFeature.GENERATE_BIOMES,
+				BurpleOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "overkill:burple_ingot"
+    },
+    "2": {
+      "item": "overkill:burple_ingot"
+    },
+    "3": {
+      "item": "overkill:burple_ingot"
+    },
+    "5": {
+      "item": "overkill:burple_ingot"
+    }
+  },
+  "result": {
+    "item": "overkill:burple_armor_boots",
+    "count": 1
+  }
+}

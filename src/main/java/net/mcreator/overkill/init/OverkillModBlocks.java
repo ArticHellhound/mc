@@ -24,6 +24,8 @@ import net.mcreator.overkill.block.ThalimiteOreBlock;
 import net.mcreator.overkill.block.ThalimiteBlockBlock;
 import net.mcreator.overkill.block.NitrogyenBlock;
 import net.mcreator.overkill.block.FanalePortalBlock;
+import net.mcreator.overkill.block.BurpleOreBlock;
+import net.mcreator.overkill.block.BurpleBlockBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -45,6 +47,8 @@ public class OverkillModBlocks {
 	public static final Block TRIPS_FENCE_GATE = register(new TripsFenceGateBlock());
 	public static final Block TRIPS_PRESSURE_PLATE = register(new TripsPressurePlateBlock());
 	public static final Block TRIPS_BUTTON = register(new TripsButtonBlock());
+	public static final Block BURPLE_ORE = register(new BurpleOreBlock());
+	public static final Block BURPLE_BLOCK = register(new BurpleBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

@@ -7,22 +7,13 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:BurpleIngot"
       },
       {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.AMETHYST_SHARD"
+        "value": "CUSTOM:BurpleIngot"
       },
       {
         "value": ""
@@ -31,16 +22,25 @@
         "value": ""
       },
       {
+        "value": "Items.STICK"
+      },
+      {
         "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Fanale"
+      "value": "CUSTOM:BurpleHoe"
     },
-    "name": "fanale_recipie",
+    "name": "burple_hoe_recipe",
     "namespace": "mod"
   }
 }
