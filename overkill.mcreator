@@ -685,6 +685,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "test"
+    },
+    {
+      "name": "NitrogyenMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitrogyen_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -723,8 +739,8 @@
       "item.overkill.secret_1.desc": "your mother mc",
       "advancements.made_you_mother.title": "Made You Mother",
       "item.overkill.thalimite_armor_boots": "Thalimite Boots",
-      "block.overkill.trips_leaves": "Trips Leaves",
       "item.overkill.burple_ingot": "Burple",
+      "block.overkill.trips_leaves": "Trips Leaves",
       "block.overkill.trips_fence": "Trips Fence",
       "subtitles.copying_you_speed": "speed fnf",
       "block.overkill.trips_log": "Trips Log",
@@ -732,8 +748,8 @@
       "fluid.overkill.nitrogyen": "Nitrogyen",
       "block.overkill.thalimite_ore": "Thalimite Ore",
       "item.overkill.burple_armor_chestplate": "Burple Chestplate",
-      "item.overkill.coffee": "Coffee",
       "item.overkill.burple_armor_helmet": "Burple Helmet",
+      "item.overkill.coffee": "Coffee",
       "item.overkill.coffeat": "Coffeat",
       "item.overkill.burple_pickaxe": "Burple Pickaxe",
       "item.overkill.burple_axe": "Burple Axe",
