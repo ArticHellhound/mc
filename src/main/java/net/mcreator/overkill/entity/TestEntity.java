@@ -41,11 +41,16 @@ import net.minecraft.network.protocol.Packet;
 import net.mcreator.overkill.init.OverkillModItems;
 import net.mcreator.overkill.init.OverkillModEntities;
 
+import java.util.Set;
+
 @Mod.EventBusSubscriber
 public class TestEntity extends Zombie {
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("overkill:trip"));
+
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(OverkillModEntities.TEST, 20, 2, 20));
+		if (SPAWN_BIOMES.contains(event.getName()))
+			event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(OverkillModEntities.TEST, 20, 2, 20));
 	}
 
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.PINK,

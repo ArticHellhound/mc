@@ -115,7 +115,11 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 20,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Trip"
+      }
+    ],
     "spawnInDungeons": true
   }
 }

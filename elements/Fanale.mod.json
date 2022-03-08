@@ -11,6 +11,9 @@
       },
       {
         "value": "jungle"
+      },
+      {
+        "value": "CUSTOM:Trip"
       }
     ],
     "worldGenType": "Nether like gen",

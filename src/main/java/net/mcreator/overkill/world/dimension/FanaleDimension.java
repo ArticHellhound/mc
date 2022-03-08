@@ -29,6 +29,10 @@ public class FanaleDimension {
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
 			replaceableBlocks.add(Blocks.CHISELED_STONE_BRICKS);
+			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("overkill:trip")).getGenerationSettings().getSurfaceBuilder()
+					.get().config().getTopMaterial().getBlock());
+			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("overkill:trip")).getGenerationSettings().getSurfaceBuilder()
+					.get().config().getUnderMaterial().getBlock());
 			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("birch_forest")).getGenerationSettings().getSurfaceBuilder()
 					.get().config().getTopMaterial().getBlock());
 			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("birch_forest")).getGenerationSettings().getSurfaceBuilder()
